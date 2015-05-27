@@ -8,10 +8,10 @@ In this phase, we'll practice allowing users to sign in and manage their own fav
 
 ## Setup
 
- 1. cd into the application's root folder.
- 1. bundle install
- 1. rake db:migrate
- 1. rails s
+ 1. `cd` into the application's root folder.
+ 1. `bundle install`
+ 1. `rake db:migrate`
+ 1. `rails s`
 
 **Don't `rake db:seed` yet.**
 

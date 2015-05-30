@@ -1,6 +1,7 @@
 class FavoritesController < ApplicationController
   def index
-    @favorites = Favorite.all
+    #@favorites = Favorite.where({ :user_id => current_user.id })
+    @favorites = current_user.favorites
   end
 
   def show
